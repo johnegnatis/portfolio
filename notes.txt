@@ -1,0 +1,2 @@
+https://www.youtube.com/watch?v=NzpbupWoIV4
+git remote set-url origin https://chrisegnatis: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@github.com/chrisegnatis/portfolio
