@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Home from './Components/Home';
-import AboutMe from './Components/AboutMe';
+// import AboutMe from './Components/AboutMe';
 import Projects from './Components/Projects';
 import reportWebVitals from './reportWebVitals';
 import {
@@ -19,7 +19,7 @@ ReactDOM.render(
       <Routes>
         <Route path="/portfolio/" element={<App/>}>
           <Route exact path="" element={<Home/>}/>
-          <Route path="AboutMe" element={<AboutMe/>}>About</Route>
+          {/* <Route path="AboutMe" element={<AboutMe/>}>About</Route> */}
           <Route path="Projects" element={<Projects/>}>Projects</Route>
           <Route
             path="*"

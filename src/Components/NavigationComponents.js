@@ -29,14 +29,14 @@ function NavigationBar () {
                         Projects
                     </Link>
                 </li>
-                <li>
+                {/* <li>
                     <Link
                         to="/portfolio/AboutMe"
                         className="text-black px-5 font-bold hover:italic"
                     >
                         About Me
                     </Link>
-                </li>
+                </li> */}
             </ul>           
         </div>
     )
@@ -77,7 +77,7 @@ function NavigationMenu(props) {
                         <h2 className="pl-10">Projects</h2>
                     </Link>
                 </li>
-                <li>
+                {/* <li>
                     <Link
                         to="/portfolio/AboutMe"
                         className=" py-3 block hover:italic"
@@ -85,7 +85,7 @@ function NavigationMenu(props) {
                     >
                         <h2 className="pl-10">About Me</h2>
                     </Link>
-                </li>
+                </li> */}
             </ul>           
         </div>
     );

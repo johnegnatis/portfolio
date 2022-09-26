@@ -1,60 +1,12 @@
-// import React, {useState} from 'react'
-// import { Document } from 'react-pdf';
+import React from "react";
 
-// function DisplayPDF() {
+function DisplayPDF({pdf}) {
+    return <div>
+                <a href= {pdf}
+                className="text-secondary text-center underline">
+                    Link to the PDF
+                </a>
+            </div>
+}
 
-//     const [numPages, setNumPages] = useState(null);
-//     const [pageNumber, setPageNumber] = useState(1);
-  
-//     function onDocumentLoadSuccess({numPages}){
-//       setNumPages(numPages);
-//       setPageNumber(1);
-//     }
-  
-//     function changePage(offSet){
-//       setPageNumber(prevPageNumber => prevPageNumber + offSet);
-//     }
-  
-//     function changePageBack(){
-//       changePage(-1)
-//     }
-  
-//     function changePageNext(){
-//       changePage(+1)
-//     }
-  
-//     return (
-//       <div className="App">
-//         <header className="App-header">
-//           <Document file="C:\Users\chris\Desktop\website\public\resume.pdf" onLoadSuccess={onDocumentLoadSuccess}>
-//             <Page height="600" pageNumber={pageNumber} />
-//           </Document>
-//           <p> Page {pageNumber} of {numPages}</p>
-//           { pageNumber > 1 && 
-//           <button onClick={changePageBack}>Previous Page</button>
-//           }
-//           {
-//             pageNumber < numPages &&
-//             <button onClick={changePageNext}>Next Page</button>
-//           }
-//         </header>
-//         <center>
-//           <div>
-//             <Document file="/sample.pdf" onLoadSuccess={onDocumentLoadSuccess}>
-//               {Array.from(
-//                 new Array(numPages),
-//                 (el,index) => (
-//                   <Page 
-//                     key={`page_${index+1}`}
-//                     pageNumber={index+1}
-//                   />
-//                 )
-//               )}
-//             </Document>
-//           </div>
-//         </center>
-//       </div>
-//     )
-// }
-
-// export default DisplayPDF;
+export default DisplayPDF;

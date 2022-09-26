@@ -22,7 +22,7 @@ function Home() {
                         </div>
                         <div className="flex justify-center md:justify-start">
                             <p className="px-10 text-center md:text-left text-xl">
-                                Welcome to my portfolio! I am a junior at UTD specializing in software engineering. I am currently reviewing internships for the summer of 2022. I appreciate your interest and look forward to meeting you!
+                                Welcome to my portfolio! I am a senior at UTD interested in Machine Learning and Software Development. I am currently seeking internships for the summer of 2023. I appreciate your interest and look forward to meeting you!
                             </p>
                         </div>
                         <div className="flex justify-center md:justify-start p-5">
@@ -40,8 +40,8 @@ function Home() {
                     <h2 className="text-center font-bold text-4xl p-10 text-dark">Featured Projects</h2>
                     <div className="flex-wrap flex justify-center pb-20">
                         <ShowProject projectData={projectData[0]}/>
-                        <ShowProject projectData={projectData[1]}/>
-
+                        <ShowProject projectData={projectData[2]}/>
+                        <ShowProject projectData={projectData[3]}/>
                     </div>
                 </section>
             </div>
