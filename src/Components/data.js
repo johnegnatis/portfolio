@@ -16,7 +16,7 @@ export const projectData = [
         date: '2/2022',
         paragraph: 'Developed a mobile-friendly web application to display real time statistics of the NHL\'s teams and players in interactive tables.Utilized several public API’s are used to gather the team statistics, team logos, player statistics, and player portraits, which is then rendered into sortable tables.',
         youtube: '9kAy26O464Y',
-        github: 'https://github.com/chrisegnatis/NHLStatsApp'
+        github: 'https://github.com/johnegnatis/NHLStatsApp'
     },
     {
         title: 'Falling Asteroid',
@@ -24,7 +24,7 @@ export const projectData = [
         date: '12/1/2022',
         paragraph: 'Developed a 2D JavaScript game using canvas. The JavaScript source code implements random generation of objects, hit-box buffers, and object-oriented programming.',
         youtube: '8A9_LRPZJuQ',
-        github: 'https://github.com/chrisegnatis/FallingAsteroid',
+        github: 'https://github.com/johnegnatis/FallingAsteroid',
     },
     {
         title: 'Resume Filter',
@@ -32,7 +32,7 @@ export const projectData = [
         date: '1/15/2022',
         paragraph: 'Developed an AI solution with my team to assist companies in automated resume filtering. Based off certain credentials, the solution was able to decide who deserves a chance at an internship. We created the solution in Prolog and further tested and displayed with the help of s(CASP). Our solution was among the finalists at Hackreason 2022.',
         youtube: 'cwVn-BGyLV0',
-        github: 'https://github.com/chrisegnatis/ResumeFilter'
+        github: 'https://github.com/johnegnatis/ResumeFilter'
 
     },
     {
@@ -47,6 +47,6 @@ export const projectData = [
         date: '5/1/2015',
         paragraph: 'Jar Application created as a freshman in highschool to help myself and others with rationalizing numbers. Implemented JFrame to display application, programmed in java.',
         youtube: 'TFbI2vqE3WU',
-        github: 'https://github.com/chrisegnatis/GeometryHelper'
+        github: 'https://github.com/johnegnatis/GeometryHelper'
     }
 ];

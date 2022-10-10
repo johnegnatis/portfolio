@@ -19,7 +19,7 @@ function Footer(){
                 >
                 </img>
             </a>
-            <a href="https://github.com/chrisegnatis"
+            <a href="https://github.com/johnegnatis"
                 className="px-5"
             >
                 <img
